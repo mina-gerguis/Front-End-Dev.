@@ -1,0 +1,11 @@
+        .les {
+            background-color: blue;
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            justify-content: center;
+            text-decoration: none;
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+        }
