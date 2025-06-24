@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../assets/style.css">
+    <title>a</title>
+</head>
+
+<body>
+    <!-- 
+        TYPE : inline
+    -->
+    <!-- العنصر ( a )  يستخدم في أنشاء الروابط الداخلية والخارجية داخل صفحة الويب  -->
+    <p>1 - <a href="https://google.com">Visit Website</a></p>
+
+
+    <!-- href
+
+    - يضع داخلها الرابط
+    **`target`**
+    بتاخد 4 قيم
+    - _self
+    - _blank
+    - _parent
+    - _top
+    `_self` - الافتراضي انه يفتح الرابط في نفس علامة التيويب
+    `_blank` - يفتح الرابط في علامة تيويب جديدة
+    `_parent` - يفتح الرابط داخل العنصر الاب الـ frame
+    `_top` - يفتح في أعلي النافذة
+    -->
+    <p>2 -
+        <a href="https://google.com" target="_blank">Visit Website</a>
+    </p>
+    <!-- download 
+    - لتنزيل ملف عبر الانترنت
+    -->
+    <p>3 -
+        <a href="../../assets/example.pdf" download>Download CV</a>
+    </p>
+    <!-- title 
+    - ينشي نص لشرح العنصر عند الوقف علي العنصر بالموس 
+    -->
+    <p>4 -
+        <a href="https://google.com" title="This is Code HTML">Code?</a>
+    </p>
+    <!-- rel
+    - مهم لحماية الموقع عند استخدام عنصر الـ target
+    - لما تستخدم 
+    target="_blank" 
+    من غير 
+    rel="noopener"
+    الرابط اللي فتحته (الموقع التاني) ممكن يتحكم في صفحتك الأصلية باستخدام 
+    JavaScript.
+    ### - rel="noopener noreferrer"
+    ### - noopener : - يمنع الصفحة الجديدة من
+    -->
+    <p>5 -
+        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+            Visit Website
+        </a>
+    </p>
+
+
+    <!-- 
+    ### - الدرس بشكل افضل وأوضح علي نوشن 
+    https://absorbed-boursin-911.notion.site/a-21a6f63e350f80da9131d1abda66ca2c
+    -->
+    <a class="les" target="_blank" href="https://absorbed-boursin-911.notion.site/a-21a6f63e350f80da9131d1abda66ca2c">الدرس بشكل
+        أوضح</a>
+</body>
+
+</html>
